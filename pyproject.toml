@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tcb"
+version = "0.1.0"
+description = ""
+authors = ["Hju Kneyck Flores <hjucode@gmail.com>"]
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Telethon = "^1.24.0"
+loguru = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
